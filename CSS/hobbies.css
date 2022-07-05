@@ -1,0 +1,359 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: url("../images/wesley-tingey-KCvF6uN0KAA-unsplash.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+}
+#container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+#main {
+    height: 85vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 40px;
+    letter-spacing: 2px;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: "Arial",sans-serif;
+    border-radius: 20px;
+    font-size: 15px;
+    position: relative;
+}
+a div {
+    background-color: rgba(255,255,255,0.3);
+    height: 100%;
+    border-radius: 20px;
+}
+a div:hover {
+    background-color: transparent;
+}
+#billiard {
+    background-image: url("../images/billiard/billiard1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    transition: 5s;
+
+    animation-name: animate1;
+    animation-direction: alternate-reverse;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes animate1 {
+    0% {
+        background-image: url("../images/billiard/billiard2.jpg");
+    }
+    20% {
+        background-image: url("../images/billiard/billiard3.jpg");
+    }
+    40% {
+        background-image: url("../images/billiard/billiard1.jpg");
+    }
+    60% {
+        background-image: url("../images/billiard/billiard2.jpg");
+    }
+    80% {
+        background-image: url("../images/billiard/billiard3.jpg");
+    }
+    100% {
+        background-image: url("../images/billiard/billiard2.jpg");
+    }
+}
+#running {
+    background-image: url("../images/running/running1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    transition: 5s;
+
+    animation-name: animate2;
+    animation-direction: alternate-reverse;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes animate2 {
+    0% {
+        background-image: url("../images/running/running2.jpg");
+    }
+    20% {
+        background-image: url("../images/running/running3.jpg");
+    }
+    40% {
+        background-image: url("../images/running/running1.jpg");
+    }
+    60% {
+        background-image: url("../images/running/running2.jpg");
+    }
+    80% {
+        background-image: url("../images/running/running3.jpg");
+    }
+    100% {
+        background-image: url("../images/running/running2.jpg");
+    }
+}
+#football {
+     background-image: url("../images/football/football1.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center bottom;
+     transition: 5s;
+
+     animation-name: animate3;
+     animation-direction: alternate-reverse;
+     animation-duration: 30s;
+     animation-fill-mode: forwards;
+     animation-iteration-count: infinite;
+     animation-play-state: running;
+     animation-timing-function: ease-in-out;
+ }
+
+@keyframes animate3 {
+    0% {
+        background-image: url("../images/football/football2.jpg");
+    }
+    20% {
+        background-image: url("../images/football/football3.jpg");
+    }
+    40% {
+        background-image: url("../images/football/football1.jpg");
+    }
+    60% {
+        background-image: url("../images/football/football2.jpg");
+    }
+    80% {
+        background-image: url("../images/football/football3.jpg");
+    }
+    100% {
+        background-image: url("../images/football/football2.jpg");
+    }
+}
+#traveling {
+     background-image: url("../images/travel/travel1.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center bottom;
+     transition: 5s;
+
+     animation-name: animate4;
+     animation-direction: alternate-reverse;
+     animation-duration: 30s;
+     animation-fill-mode: forwards;
+     animation-iteration-count: infinite;
+     animation-play-state: running;
+     animation-timing-function: ease-in-out;
+ }
+
+@keyframes animate4 {
+    0% {
+        background-image: url("../images/travel/travel2.jpg");
+    }
+    20% {
+        background-image: url("../images/travel/travel3.jpg");
+    }
+    40% {
+        background-image: url("../images/travel/travel1.jpg");
+    }
+    60% {
+        background-image: url("../images/travel/travel2.jpg");
+    }
+    80% {
+        background-image: url("../images/travel/travel3.jpg");
+    }
+    100% {
+        background-image: url("../images/travel/travel2.jpg");
+    }
+}
+#mountain_climbing {
+     background-image: url("../images/mountain-climbing/climbing1.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center bottom;
+     transition: 5s;
+
+     animation-name: animate5;
+     animation-direction: alternate-reverse;
+     animation-duration: 30s;
+     animation-fill-mode: forwards;
+     animation-iteration-count: infinite;
+     animation-play-state: running;
+     animation-timing-function: ease-in-out;
+ }
+
+@keyframes animate5 {
+    0% {
+        background-image: url("../images/mountain-climbing/climbing2.jpg");
+    }
+    20% {
+        background-image: url("../images/mountain-climbing/climbing3.jpg");
+    }
+    40% {
+        background-image: url("../images/mountain-climbing/climbing1.jpg");
+    }
+    60% {
+        background-image: url("../images/mountain-climbing/climbing2.jpg");
+    }
+    80% {
+        background-image: url("../images/mountain-climbing/climbing3.jpg");
+    }
+    100% {
+        background-image: url("../images/mountain-climbing/climbing2.jpg");
+    }
+}
+#gym {
+     background-image: url("../images/gym/gym1.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center bottom;
+     transition: 5s;
+
+     animation-name: animate6;
+     animation-direction: alternate-reverse;
+     animation-duration: 30s;
+     animation-fill-mode: forwards;
+     animation-iteration-count: infinite;
+     animation-play-state: running;
+     animation-timing-function: ease-in-out;
+ }
+
+@keyframes animate6 {
+    0% {
+        background-image: url("../images/gym/gym2.jpg");
+    }
+    20% {
+        background-image: url("../images/gym/gym3.jpg");
+    }
+    40% {
+        background-image: url("../images/gym/gym1.jpg");
+    }
+    60% {
+        background-image: url("../images/gym/gym2.jpg");
+    }
+    80% {
+        background-image: url("../images/gym/gym3.jpg");
+    }
+    100% {
+        background-image: url("../images/gym/gym2.jpg");
+    }
+}
+#gymnastics {
+     background-image: url("../images/gymnastics/gymnastics1.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center bottom;
+     transition: 5s;
+
+     animation-name: animate7;
+     animation-direction: alternate-reverse;
+     animation-duration: 30s;
+     animation-fill-mode: forwards;
+     animation-iteration-count: infinite;
+     animation-play-state: running;
+     animation-timing-function: ease-in-out;
+ }
+
+@keyframes animate7 {
+    0% {
+        background-image: url("../images/gymnastics/gymnastics2.jpg");
+    }
+    20% {
+        background-image: url("../images/gymnastics/gymnastics3.jpg");
+    }
+    40% {
+        background-image: url("../images/gymnastics/gymnastics1.jpg");
+    }
+    60% {
+        background-image: url("../images/gymnastics/gymnastics2.jpg");
+    }
+    80% {
+        background-image: url("../images/gymnastics/gymnastics3.jpg");
+    }
+    100% {
+        background-image: url("../images/gymnastics/gymnastics2.jpg");
+    }
+}
+#reading {
+     background-image: url("../images/reading/reading1.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center bottom;
+     transition: 5s;
+
+     animation-name: animate8;
+     animation-direction: alternate-reverse;
+     animation-duration: 30s;
+     animation-fill-mode: forwards;
+     animation-iteration-count: infinite;
+     animation-play-state: running;
+     animation-timing-function: ease-in-out;
+ }
+
+@keyframes animate8 {
+    0% {
+        background-image: url("../images/reading/reading2.jpg");
+    }
+    20% {
+        background-image: url("../images/reading/reading3.jpg");
+    }
+    40% {
+        background-image: url("../images/reading/reading1.jpg");
+    }
+    60% {
+        background-image: url("../images/reading/reading2.jpg");
+    }
+    80% {
+        background-image: url("../images/reading/reading3.jpg");
+    }
+    100% {
+        background-image: url("../images/reading/reading2.jpg");
+    }
+}
+#logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+span {
+    display: none;
+}
+a:hover span {
+    display: initial;
+}
+.middle span {
+    position: absolute;
+    top: 50%;
+    padding-left: 30px;
+}
+#copyright {
+    width: 100%;
+    font-family: "Arial", sans-serif;
+    color: white;
+    font-size: 10px;
+    position: absolute;
+    bottom: 8px;
+    text-align: center;
+}

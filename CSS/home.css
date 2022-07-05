@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: url("../images/daniel-leone-v7daTKlZzaw-unsplash(1).jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial,sans-serif;
+}
+#main {
+    text-align: center;
+}
+#top {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    color: white;
+}
+#top:hover #info {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    letter-spacing: 4px;
+    word-spacing: 10px;
+    font-size: 25px;
+    transition: 1s;
+    font-style: italic;
+}
+#top:not(:hover) #info {
+    padding-bottom: 50px;
+    letter-spacing: 4px;
+    word-spacing: 20px;
+    font-size: 0;
+    transition: 1s;
+}
+#name {
+    padding-top: 50px;
+    font-weight: bold;
+    letter-spacing: 6px;
+    word-spacing: 25px;
+    font-size: 35px;
+}
+#navigation {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+a {
+    text-decoration: none;
+    color: rgba(255,255,255,0.5);
+    font-family: "Arial",sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(100,100,100,0.1);
+    border-radius: 10px;
+}
+a:hover {
+    color: white;
+    background-color: rgba(100,100,100,0.6);
+}
+.nav {
+    width: 20%;
+    text-align: center;
+}
+#copyright {
+    color: white;
+    font-size: 10px;
+    position: absolute;
+    bottom: 8px;
+    text-align: center;
+}
